@@ -3,6 +3,8 @@ var buttonColours = ["red", "blue", "green", "yellow"];
 var gamePattern = [];
 var userClickedPattern = [];
 
+
+
 $(".btn").click(function() {
 
   var userChosenColour = $(this).attr("id");
@@ -11,6 +13,8 @@ $(".btn").click(function() {
   //console.log(userClickedPattern);
 
 });
+
+
 
 function nextSequence() {
 
