@@ -26,4 +26,17 @@ function nextSequence() {
 
   var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
   audio.play();
-}
+
+  $(".btn").click(function() {
+
+    var userChosenColour = $(this).attr("id");
+    userClickedPattern.push(userChosenColour);
+  
+    //console.log(userClickedPattern);
+    var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
+    audio.play();
+  
+  });
+  
+
+};
