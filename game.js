@@ -13,7 +13,6 @@ $(".btn").click(function() {
   playSound(userChosenColour);
 
   animatePress(userChosenColour);
-
 });
 
 
