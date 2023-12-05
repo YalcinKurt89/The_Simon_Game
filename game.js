@@ -10,7 +10,7 @@ $(".btn").click(function() {
   var userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
 
-  //console.log(userClickedPattern);
+  playSound(userChosenColour);
 
 });
 
@@ -24,19 +24,13 @@ function nextSequence() {
 
   $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
 
-  var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
-  audio.play();
-
-  $(".btn").click(function() {
-
-    var userChosenColour = $(this).attr("id");
-    userClickedPattern.push(userChosenColour);
-  
-    console.log(userClickedPattern);
-    var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
-    audio.play();
-  
-  });
+  playSound(randomChosenColour);
 };
 
-nextSequence();
+
+
+function playSound(name) {
+
+  var audio = new Audio("sounds/" + name + ".mp3");
+  audio.play();
+}
