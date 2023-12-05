@@ -47,3 +47,11 @@ function animatePress(currentColour) {
   }, 100);
 };
 
+
+$(document).on("keydown", function() {
+  nextSequence();
+});
+
+var level = 0;
+
+$("h1").text("Level" + level)
