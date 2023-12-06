@@ -26,11 +26,29 @@ $(".btn").click(function() {
 
   playSound(userChosenColour);
   animatePress(userChosenColour);
+  checkAnswer(userClickedPattern - 1)
 });
 
 
 
+function checkAnswer(currentLevel) {
+  if (userClickedPattern[currentLevel] === gamePattern[currentLevel]) {
+    console.log("success");
+    if (userClickedPattern.length === gamePattern.length) {
+      setTimeout(function() {
+        nextSequence();
+      }, 1000);
+    }
+  } else {
+    console.log("wrong");
+  }
+}
+
+
+
 function nextSequence() {
+
+  userClickedPattern = [];
 
   level++;
 
