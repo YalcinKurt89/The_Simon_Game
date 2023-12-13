@@ -1,37 +1,42 @@
 # Simon Game 🎮
 
-Willkommen beim Simon Game – ein klassisches Gedächtnisspiel, das noch in Bearbeitung ist! 
-<p>
+Willkommen beim Simon Game – ein klassisches Gedächtnisspiel, das deine Reaktionsfähigkeit und dein Erinnerungsvermögen testet. Momentan ist das Projekt noch in Bearbeitung, daher funktioniert das Spiel noch nicht. In Zukunft werde ich das Spiel aber Schritt für Schritt fertigstellen. Den verlauf könnt ihr auf github gerne folgen! 
+
 
 ![Simon Game Vorschau](https://raw.githubusercontent.com/YalcinKurt89/The_Simon_Game/main/images/Screenshot.jpg)
 
-</p>
 
 ## Über das Spiel ℹ️
 
 Das Simon Game ist ein unterhaltsames Gedächtnisspiel, bei dem du eine Reihe von Farben und Tönen wiederholen musst, die vom Spiel vorgegeben werden. Je länger du die Sequenz korrekt wiederholst, desto schwieriger wird es!
 
+
 ## Funktionalitäten 🛠️
 
-- Erstelle eine Benutzerschnittstelle für das Spiel
-- Generiere zufällige Sequenzen von Farben und Tönen
-- Überprüfe die vom Benutzer eingegebene Sequenz mit der vorgegebenen Sequenz
-- Füge verschiedene Schwierigkeitsstufen hinzu, um das Spiel herausfordernder zu gestalten
-- Implementiere Soundeffekte und Animationen für ein besseres Spielerlebnis
+- **Spielstart:** Drücke eine beliebige Taste, um das Spiel zu starten.
+- **Muster wiederholen:** Klicke auf die farbigen Tasten, um die vom Spiel erzeugte Sequenz zu wiederholen.
+- **Level erhöhen:** Mit jedem erfolgreichen Muster steigt das Level, und das Spiel wird anspruchsvoller.
+
 
 ## Anleitung zur Verwendung 📚
 
 1. Lade das Spiel herunter oder klone das Repository.
-2. Öffne die `index.html`-Datei in deinem Webbrowser.
-3. Starte das Spiel und versuche, die Sequenzen zu wiederholen, um Punkte zu sammeln.
+2. Öffne die `index.html`-Datei in deinem bevorzugten Webbrowser.
+3. Starte das Spiel, indem du eine beliebige Taste drückst, und versuche, die generierten Muster nachzubilden, um Level für Level voranzuschreiten.
 
-## Beitrag leisten 💡
 
-Bevor du beiträgst, schau bitte in den [Contributing Guidelines](link_zu_beitragsrichtlinien), um zu erfahren, wie du helfen kannst.
+## Technologien verwendet ⚙️
 
-## Hinweis zur Website 🌐
+- **HTML:** Strukturierung der Spieloberfläche.
+- **CSS:** Gestaltung und Design der Spieloberfläche.
+- **JavaScript:** Logik und Interaktivität des Spiels.
 
-Eine Webseite für das Spiel wird in Kürze verfügbar sein. Schau später noch einmal vorbei, um das Spiel in Aktion zu erleben!
+<br>
+<br>
+
+> [!Achtung] 
+> Die fertige Webseite für das Spiel wird in Kürze verfügbar sein.
+> Schau später noch einmal vorbei, um das Spiel in Aktion zu erleben!
 
 ---
 
