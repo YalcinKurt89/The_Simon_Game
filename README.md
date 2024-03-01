@@ -5,7 +5,7 @@ Willkommen beim Simon Game – ein klassisches Gedächtnisspiel, das deine Reakt
 Dieses Spiel wurde im Rahmen eines Online-Kurses von Dr. Angela Yu erstellt. Dabei wurde das Spiel Schritt für Schritt mit Aufgaben erstellt.
 
 <picture>
-  <img alt="Screenshot vom Spiel" src="https://raw.githubusercontent.com/YalcinKurt89/The_Simon_Game/main/images/Screenshot.jpg" width="500">
+  <img alt="Screenshot vom Spiel" src="https://github.com/YalcinKurt89/The_Simon_Game/blob/main/images/Screenshot.jpg?raw=true" width="500">
 </picture>
 
 
