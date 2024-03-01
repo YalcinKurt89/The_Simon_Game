@@ -1,6 +1,8 @@
 # Simon Game 🎮
 
-Willkommen beim Simon Game – ein klassisches Gedächtnisspiel, das deine Reaktionsfähigkeit und dein Erinnerungsvermögen testet. Momentan ist das Projekt noch in Bearbeitung, daher funktioniert das Spiel noch nicht. In Zukunft werde ich das Spiel aber Schritt für Schritt fertigstellen. Den verlauf könnt ihr auf github gerne folgen! 
+## Willkommen beim Simon Game – ein klassisches Gedächtnisspiel, das deine Reaktionsfähigkeit und dein Erinnerungsvermögen testet. Momentan ist das Projekt noch in Bearbeitung, daher funktioniert das Spiel noch nicht. In Zukunft werde ich das Spiel aber Schritt für Schritt fertigstellen. Den verlauf könnt ihr auf github gerne folgen! 
+
+## Dieses Spiel wurde im Rahmen eines Online-Kurses von Dr. Angela Yu erstellt. Dabei wurde das Spiel Schritt für Schritt mit Aufgaben erstellt.
 
 <picture>
   <img alt="Screenshot vom Spiel" src="https://raw.githubusercontent.com/YalcinKurt89/The_Simon_Game/main/images/Screenshot.jpg" width="500">
