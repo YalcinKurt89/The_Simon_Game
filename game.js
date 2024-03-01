@@ -1,4 +1,3 @@
-
 let buttonColours = ["red", "blue", "green", "yellow"];
 
 let gamePattern = [];
@@ -8,7 +7,6 @@ let started = false;
 let level = 0;
 
 
-
 $(document).keypress(function() {
   if (!started) {
     $("#level-title").text("Level " + level);
@@ -16,7 +14,6 @@ $(document).keypress(function() {
     started = true;
   }
 });
-
 
 
 $(".btn").click(function() {
@@ -29,7 +26,6 @@ $(".btn").click(function() {
 
   checkAnswer(userClickedPattern.length-1);
 });
-
 
 
 function checkAnswer(currentLevel) {
@@ -60,9 +56,7 @@ function checkAnswer(currentLevel) {
       //2. Call startOver() if the user gets the sequence wrong.
       startOver();
     }
-
-}
-
+};
 
 
 function nextSequence() {
@@ -77,15 +71,13 @@ function nextSequence() {
 
   $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
   playSound(randomChosenColour);
-}
-
+};
 
 
 function playSound(name) {
   let audio = new Audio("sounds/" + name + ".mp3");
   audio.play();
-}
-
+};
 
 
 function animatePress(currentColor) {
@@ -93,8 +85,7 @@ function animatePress(currentColor) {
   setTimeout(function () {
     $("#" + currentColor).removeClass("pressed");
   }, 100);
-}
-
+};
 
 
 function startOver() {
@@ -102,4 +93,4 @@ function startOver() {
   level = 0;
   gamePattern = [];
   started = false;
-}
+};
